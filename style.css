@@ -1,0 +1,25 @@
+body {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loader {
+  border: 10px solid #ececec;
+  border-top: 10px solid #ff0000;
+  border-radius: 100%;
+  width: 64px;
+  height: 64px;
+  animation: loaderSpin 1.5s linear infinite;
+}
+
+@keyframes loaderSpin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
