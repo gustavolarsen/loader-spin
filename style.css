@@ -7,12 +7,22 @@ body {
 }
 
 .loader {
+  margin: 16px;
   border: 10px solid #ececec;
   border-top: 10px solid #ff0000;
   border-radius: 100%;
   width: 64px;
   height: 64px;
   animation: loaderSpin 1.5s linear infinite;
+}
+
+.loader-dotted {
+  margin: 16px;
+  border: 10px dotted #ff0000;
+  border-radius: 100%;
+  width: 64px;
+  height: 64px;
+  animation: loaderSpin 1.5s ease infinite;
 }
 
 @keyframes loaderSpin {
